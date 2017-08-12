@@ -46,7 +46,7 @@ namespace Eco.Mods.TechTree
             };
             this.CraftMinutes = CreateCraftTimeValue(typeof(MoonshineRecipe), Item.Get<MoonshineItem>().UILink(), 5, typeof(DistillingSpeedSkill)); 
             this.Initialize("Moonshine", typeof(MoonshineRecipe));
-            CraftingComponent.AddRecipe(typeof(StoveObject), this);
+            CraftingComponent.AddRecipe(typeof(DistilleryObject), this);
         }
     }
 }

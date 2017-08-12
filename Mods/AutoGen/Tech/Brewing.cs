@@ -28,14 +28,14 @@ namespace Eco.Mods.TechTree
     }
     
     [Serialized]
-    public partial class CastingSkillBook : SkillBook<BrewingSkill>
+    public partial class BrewingSkillBook : SkillBook<BrewingSkill>
     {
         public override string FriendlyName { get { return "Brewing Skill Book"; } }
         public override Type SkillScrollItem { get { return typeof(BrewingSkillScroll); } }
     }
 
     [Serialized]
-    public partial class CastingSkillScroll : SkillScroll<BrewingSkill>
+    public partial class BrewSkillScroll : SkillScroll<BrewingSkill>
     {
         public override string FriendlyName { get { return "Brewing Skill Scroll"; } }
     }
